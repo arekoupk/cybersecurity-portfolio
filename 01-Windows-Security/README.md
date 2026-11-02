@@ -27,6 +27,8 @@ Learn the basic structure of Windows, understand how Windows manages users, proc
 
 Reports and screenshots will be added as practical activities are completed.
 
+
+
 ## Lesson 1: Windows Fundamentals
 
 ### Topics Covered
@@ -59,6 +61,44 @@ Reports and screenshots will be added as practical activities are completed.
 ### Cybersecurity Relevance
 
 Understanding processes, services, users, and operating-system components provides a foundation for SOC monitoring, security investigations, and digital forensics.
+
+### Learning Status
+
+In Progress
+
+
+## Lesson 2: Windows Users, Groups & Permissions
+
+### Topics Covered
+
+- Windows user accounts
+- Standard users and administrators
+- Local user groups
+- File and folder permissions
+- Access control
+- Privilege escalation
+
+### Practical Commands
+
+| Command | Purpose |
+|---|---|
+| `Get-LocalUser` | Lists local user accounts |
+| `Get-LocalGroup` | Lists local groups |
+| `Get-LocalGroupMember` | Displays group members |
+| `whoami` | Displays current user |
+| `Get-Acl` | Inspects file and folder permissions |
+
+### Practical Activities
+
+- Inspected local Windows user accounts.
+- Explored local security groups.
+- Checked Administrators group membership.
+- Created a test folder and file.
+- Inspected folder permissions using PowerShell.
+
+### Cybersecurity Relevance
+
+Understanding users, groups and permissions helps security analysts investigate unauthorized access, suspicious account activity and privilege escalation.
 
 ### Learning Status
 
