@@ -103,3 +103,44 @@ Understanding users, groups and permissions helps security analysts investigate 
 ### Learning Status
 
 In Progress
+
+## Lesson 3: Windows Processes, Services & Task Manager
+
+### Topics Covered
+
+- Windows processes
+- Process ID (PID)
+- CPU and memory usage
+- Parent and child processes
+- Windows services
+- Service status and startup types
+- Task Manager
+- Task Scheduler
+- Process and service inspection
+
+### Practical Commands
+
+| Command | Purpose |
+|---|---|
+| `Get-Process` | Lists running processes |
+| `Get-Service` | Lists Windows services |
+| `Get-CimInstance Win32_Service` | Inspects service information |
+| `Get-Process -Id 1234` | Inspects a process by PID |
+| `Get-Process notepad` | Finds the Notepad process |
+
+### Practical Activities
+
+- Explored processes using Task Manager.
+- Inspected process IDs using PowerShell.
+- Examined CPU usage.
+- Explored running and stopped services.
+- Inspected Windows Update and Firewall services.
+- Explored Windows Task Scheduler.
+
+### Cybersecurity Relevance
+
+Process and service analysis helps SOC analysts investigate suspicious execution, unusual system activity, and potential malware persistence.
+
+### Learning Status
+
+Completed
